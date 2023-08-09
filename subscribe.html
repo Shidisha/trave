@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/index.js"></script>
+    <title>Subcrib</title>
+</head>
+<body>
+        <nav class="navigation">
+            <ul>
+                <a href="#"><li><img src="#" alt="logo"></li></a>
+                <a href="#"><li>Accueil</li></a>
+                <a href="/connexion.html"><li>Profil</li></a>
+                <a href="#"><li>Plus</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <section class="mySection">
+        <div id="contenair">
+            <form action="traitement.php" id="frm_Cnx">
+                <h1>INSCRIPTION</h1>
+                <input id="ipt_Email" type="email" placeholder="email"> <br>
+                    <p id="msg_Email"></p>
+                <input id="ipt_Pwd" type="password" placeholder="mot de passe" ><br>
+                    <p id="msg_Pwd">le champ obligatoire</p>
+                <button type="submit" id="btn_Cnx">S'inscrire</button> <br>
+                <a id="fgt_Pwd" href="#">mot de passe oublié</a><br>
+                <a id="crt_Account" href="/connexion.html">se connecter</a>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,245 @@
+*{
+    outline: none;
+    list-style:none;
+}
+body{
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display:content;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    background:none;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 20px 20px 40px -6px;
+    height: 30px;
+}
+.navigation ul{
+    display: flex;
+    width: auto;
+    gap:.8em;
+}
+.navigation ul a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, .6);
+    transition: all .3s;
+}
+.navigation ul a:hover{
+    color: black;
+    font-size: larger;
+}
+.mySection{
+    justify-content: flex-start;
+}
+#contenair{
+    align-items: center;
+    position: absolute;
+}
+form{
+    width: 300px;
+    background: rgba(255, 255, 255, .3);
+    padding: 3rem;
+    height: 320px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    /*Crétion d'un ombre sur la form*/
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px;
+}
+h1{
+    color: white;
+    margin-bottom: 40px;
+    text-align:center ;
+    font-family: 'Segoe UI', Tahoma;
+    font-style:normal;
+    font-weight:800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+}
+#ipt_Email{
+    height: 20px;
+    width: 260px;
+    color:black;
+    border-bottom-left-radius: 5px;
+    box-shadow: 5px 5px 10px -1px;
+    padding-left: 5px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+}
+#msg_Email{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: right;
+    visibility: hidden;
+}
+#ipt_Pwd{
+    height: 20px;
+    width: 260px;
+    color: black;
+    border-bottom-left-radius: 5px;
+    box-shadow: 5px 5px 10px -1px;
+    padding-left: 5px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+}
+#msg_Pwd{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: right;
+    visibility: hidden;
+}
+#btn_Cnx{
+    width: 280px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    transition:.7s ease all;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 10px 2px;
+    margin-bottom: 20px;
+}
+#fgt_Pwd{
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-decoration: none;
+    transition: all .2s;
+}
+#crt_Account{
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: all .2s;
+}
+#fgt_Pwd:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0);
+    color: black;
+}
+#crt_Account:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0);
+    color: black;
+}
+::placeholder{
+    color: black;
+}
+.drop{
+    background: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    position: absolute;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, .2);
+}
+.drop-1{
+    height: 80px; width: 80px;
+    top: -20px; left: -40px;
+}
+.drop-2{
+    height: 80px;
+    width: 80px;
+    bottom: -20px;
+    left: -10px;
+    z-index: -1;
+}
+.drop-3{
+    height: 100px;
+    width: 100px;
+    right:-70px;
+    top:-40px;
+    z-index: -1;
+}
+.drop-4{
+    height: 50px;
+    width: 50px;
+    right: -14px;
+    bottom: 50px;
+    border-radius: 40%;
+    border-bottom-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+.drop-5{
+    height: 50px;
+    width: 50px;
+    right:-35px;
+    bottom: 50px;
+    border-radius: 50%;
+    border-bottom-right-radius: 75px;
+    border-top-left-radius: 75px;
+}
+/*Code forme poesie*/
+#contenair_text{
+    display: flex;
+}
+#frm_text{
+   height: px;
+   margin-left : auto ;
+}
+h4{
+    font-weight: 800;
+    text-shadow: rgba(235, 230, 230, 0.6);
+    color: #FC466B;
+}
+#frm_text p{
+    color: black;
+}
+#poeme{
+    text-align: center;
+    padding-top: 30%;
+    color: black;
+}
+
+.pdrop{
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    position: absolute;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, .2);    
+}
+
+.drop1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-bottom-right-radius: 75px;
+    border-top-left-radius: 75px;
+    right: 180px;
+    bottom: 200px;
+
+}
+.drop2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    left: -25px;
+}
